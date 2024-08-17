@@ -19,6 +19,7 @@ this.userName='';
 this.checkUsername() ;
 this.logButtonClick('Reset Username'); 
 
+
   }
     
   onToggleParagraph (){
