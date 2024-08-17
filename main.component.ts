@@ -15,6 +15,7 @@ export class MainComponent {
   }
 
 
+
   onResetUsername(){
 this.userName=''; 
 this.checkUsername() ;
@@ -22,6 +23,7 @@ this.logButtonClick('Reset Username');
 
 
   }
+  
     
   onToggleParagraph (){
 this .showParagraph= !this.showParagraph; 
