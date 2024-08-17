@@ -14,6 +14,7 @@ export class MainComponent {
     this.isValidbtn = this.userName.trim() !== '';
   }
 
+  
   onResetUsername(){
 this.userName=''; 
 this.checkUsername() ;
