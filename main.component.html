@@ -11,24 +11,15 @@
     Lorem ipsum dolor sit amet consectetur adipisicing elit.
     Rerum repellendus laboriosam quasi natus delectus provident quae neque iure nisi cupiditate, 
     eaque vel, iste, deleniti similique minus esse. Eaque, ex aliquam?</p>
-
     <button class="btn btn-success" (click)="onToggleParagraph()">
         {{ showParagraph ? 'Hide' : 'Show' }} Display Details </button> 
-
         <div class="mt-4">
-
             <h5>Button Click Logs:</h5>
-
-
             <ul>
-              
               <li *ngFor="let log of clickLogs">{{ log }}</li>
             </ul>
           </div>
           <ul>
-
-
-
             @for ( i of clickLogs; track i)
             {
                 <li>i</li>
