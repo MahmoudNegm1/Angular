@@ -23,7 +23,7 @@ this.logButtonClick('Reset Username');
 
 
   }
-  
+
     
   onToggleParagraph (){
 this .showParagraph= !this.showParagraph; 
