@@ -21,6 +21,7 @@ this.logButtonClick('Reset Username');
   onToggleParagraph (){
 this .showParagraph= !this.showParagraph; 
 this.logButtonClick('Toggle Paragraph'); 
+
   }
   logButtonClick(buttonName: string) {
     const timestamp = new Date().toLocaleString();
