@@ -14,7 +14,7 @@ export class MainComponent {
     this.isValidbtn = this.userName.trim() !== '';
   }
 
-  
+
   onResetUsername(){
 this.userName=''; 
 this.checkUsername() ;
@@ -26,6 +26,7 @@ this.logButtonClick('Reset Username');
   onToggleParagraph (){
 this .showParagraph= !this.showParagraph; 
 this.logButtonClick('Toggle Paragraph'); 
+
 
 
   }
